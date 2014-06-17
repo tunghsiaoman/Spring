@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN"  
+    "http://tuckey.org/res/dtds/urlrewrite3.0.dtd">  
+<!-- <urlrewrite>  
+	　访问jsp及jspx将不rewrite　url,其它.js,.css,.gif等将重写,如　/foo.gif　=>　/static/foo.gif　
+    <rule>  
+    	<condition operator="notequal" next="and" type="request-uri">.*.jsp</condition>
+    	<condition operator="notequal" next="and" type="request-uri">.*.shtml</condition>
+        <from>^([0-9a-zA-Z\/]*).jsp$</from>  
+        <to>/$1.shtml</to>  
+    </rule>  
+</urlrewrite> -->
